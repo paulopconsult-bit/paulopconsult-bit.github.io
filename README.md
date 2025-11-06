@@ -21,5 +21,4 @@ Consultoria especializada em dados aplicada à gestão estratégica e ao setor d
 
 ## 📬 Contato
 - **Email:** [paulo.pconsult@gmail.com](mailto:paulo.pconsult@gmail.com)
-- **Power BI Service:** paulo@1982lab.onmicrosoft.com
 - **LinkedIn:** [Paulo Rogério Dias](https://www.linkedin.com/in/paulo-data-driven)
