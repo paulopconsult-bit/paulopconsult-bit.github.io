@@ -1,0 +1,13 @@
+# Ignorar a pasta privada
+privado/
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos de backup
+*.bak
+
+# Ignorar configurações de editores
+.vscode/
+*.DS_Store
