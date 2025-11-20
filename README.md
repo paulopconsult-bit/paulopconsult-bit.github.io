@@ -5,7 +5,7 @@ Foi criado para aprender sobre Git, versionamento e publicação de páginas web
 
 ## Como visualizar
 
-Acesse: https://paulopconsult-bit.github.io/
+<a href="https://paulopconsult-bit.github.io/" target="_blank">Acesse o site</a>
 
 ## Estrutura do projeto
 
