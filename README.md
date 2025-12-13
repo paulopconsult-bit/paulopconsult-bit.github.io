@@ -1,7 +1,7 @@
 # Meu Site com GitHub Pages
 
 Este projeto é um site hospedado gratuitamente usando GitHub Pages.  
-Foi criado para aprender sobre Git, versionamento e publicação de páginas web.
+Foi criado para treinar Git, versionamento e publicação de páginas web, além de manter a prática em outras ferramentas.
 
 ## Como visualizar
 
@@ -16,5 +16,5 @@ Foi criado para aprender sobre Git, versionamento e publicação de páginas web
 
 ## Autor
 
-Paulo Dias  
+**Paulo Dias**
 Mongaguá, SP – Brasil
