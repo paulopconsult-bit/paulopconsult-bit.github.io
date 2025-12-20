@@ -1,8 +1,19 @@
+<!-- ============================
+     ESTRUTURA BÁSICA DO DOCUMENTO HTML
+     - Define idioma
+     - Define codificação
+     - Define título da aba do navegador
+     - Carrega estilos e metadados
+     ============================ -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Paulo Dias – Consultor Data Driven</title>
+
+  <!-- ============================
+       ESTILOS GERAIS DA PÁGINA
+       ============================ -->
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -46,11 +57,6 @@
       margin: 10px 0;
     }
 
-    .icone {
-      font-size: 20px;
-      margin-right: 8px;
-    }
-
     a {
       color: #2980b9;
       text-decoration: none;
@@ -61,60 +67,96 @@
     }
   </style>
 </head>
+
 <body>
 
+  <!-- ============================
+       CABEÇALHO E APRESENTAÇÃO
+       ============================ -->
   <h1>Bem-vindo(a) à minha página</h1>
   <p>Olá, meu nome é Paulo, eu sou consultor de seguros data driven!</p>
+
+  <!-- Foto com link para o LinkedIn -->
   <a href="https://www.linkedin.com/in/paulo-data-driven/" target="_blank">
     <img src="foto/github foto.jpg" class="imagem-centralizada" alt="Foto de Paulo, consultor de seguros data driven">
   </a>
 
+  <!-- ============================
+       SEÇÃO SOBRE
+       ============================ -->
   <div class="secao">
     <h2>🧠 Sobre</h2>
-    <p>Consultoria especializada em dados aplicada à gestão estratégica e ao setor de seguros. Atuamos com visualização de dados, prevenção de fraudes em sinistros e implantação de soluções em Business Intelligence.</p>
+    <p>Consultoria especializada em dados aplicada à gestão estratégica e ao setor de seguros. Atuamos com visualização de dados, previsões e implantação de soluções em Business Intelligence.</p>
   </div>
 
-<div class="secao">
-  <h2>📁 Projetos</h2>
-  <ul>
-    <li>💎 Análise de Preços de Diamantes: 
-      <a href="https://paulopconsult-bit.github.io/analise-precos-diamantes/Analise-Preco-Diamantes.html" target="_blank">
-        Ver no R Markdown
-      </a>
-    </li>
-    <li>🏠 Análise de Preços de Imóveis: 
-      <a href="https://paulopconsult-bit.github.io/Analise-Preco-Imoveis/AnaliseExploratoriaImoveis.html" target="_blank">
-        Ver no R Markdown
-      </a>
-    </li>
-  </ul>
-</div>
+  <!-- ============================
+       SEÇÃO PROJETOS
+       ============================ -->
+  <div class="secao">
+    <h2>📁 Projetos</h2>
 
+    <!-- Lista de projetos -->
+    <ul>
+
+      <!-- Projeto 1 -->
+      <li>💎 Análise de Preços de Diamantes:
+        <a href="https://paulopconsult-bit.github.io/analise-precos-diamantes/Analise-Preco-Diamantes.html" target="_blank">
+          Ver no R Markdown
+        </a>
+      </li>
+
+      <!-- Projeto 2 -->
+      <li>🏠 Análise de Preços de Imóveis:
+        <a href="https://paulopconsult-bit.github.io/Analise-Preco-Imoveis/AnaliseExploratoriaImoveis.html" target="_blank">
+          Ver no R Markdown
+        </a>
+      </li>
+
+      <!-- Projeto 3 -->
+      <li>📊 Aplicação Shiny – Acontecer:
+        <a href="https://pconsult-bit.shinyapps.io/acontecer/" target="_blank">
+          Acessar o aplicativo
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- ============================
+       SEÇÃO SERVIÇOS
+       ============================ -->
   <div class="secao">
     <h2>🛠 Serviços</h2>
     <ul>
       <li>🔧 Implantação de BI e dashboards</li>
       <li>📈 Consultoria em dados</li>
-      <li>🕵️‍♂️ Prevenção de fraudes em sinistros</li>
+      <li>🕵️‍♂️ Modelos Preditivos</li>
     </ul>
   </div>
 
-<div class="secao">
-  <h2>📞 Contato</h2>
-  <ul style="list-style: none; padding: 0;">
-    <li>📧 <strong>Email:</strong> 
-      <a href="mailto:paulo.pconsult@gmail.com">paulo.pconsult@gmail.com</a>
-    </li>
-    <li>🔗 <strong>LinkedIn:</strong> 
-      <a href="https://www.linkedin.com/in/paulo-data-driven/" target="_blank">Paulo Rogério Dias</a>
-    </li>
-    <li>💬 <strong>WhatsApp:</strong> 
-      <a href="https://wa.me/5513991245656?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20trabalhos!" target="_blank">
-        Clique aqui para falar comigo
-      </a>
-    </li>
-  </ul>
-</div>
+  <!-- ============================
+       SEÇÃO CONTATO
+       ============================ -->
+  <div class="secao">
+    <h2>📞 Contato</h2>
+    <ul>
+      <li>📧 <strong>Email:</strong>
+        <a href="mailto:paulo.pconsult@gmail.com">paulo.pconsult@gmail.com</a>
+      </li>
+
+      <li>🔗 <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/paulo-data-driven/" target="_blank">
+          Paulo Rogério Dias
+        </a>
+      </li>
+
+      <li>💬 <strong>WhatsApp:</strong>
+        <a href="https://wa.me/5513991245656?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20trabalhos!" target="_blank">
+          Clique aqui para falar comigo
+        </a>
+      </li>
+    </ul>
+  </div>
 
 </body>
 </html>
