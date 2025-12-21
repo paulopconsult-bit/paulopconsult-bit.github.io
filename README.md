@@ -1,7 +1,7 @@
 # Meu Site com GitHub Pages
 
 Este projeto é um site hospedado gratuitamente usando GitHub Pages.  
-Foi criado para treinar Git, versionamento e publicação de páginas web, além de manter a prática em outras ferramentas.
+Foi criado para treinar Git, versionamento e publicação de páginas web, além de manter a prática em outras ferramentas e compartilhar o conteúdo com outros desenvolvedores.
 
 ## Como visualizar
 

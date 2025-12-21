@@ -1,9 +1,5 @@
 <!-- ============================
      ESTRUTURA BÁSICA DO DOCUMENTO HTML
-     - Define idioma
-     - Define codificação
-     - Define título da aba do navegador
-     - Carrega estilos e metadados
      ============================ -->
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -11,59 +7,152 @@
   <meta charset="UTF-8">
   <title>Paulo Dias – Consultor Data Driven</title>
 
+  <!-- Fonte moderna e corporativa -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
   <!-- ============================
        ESTILOS GERAIS DA PÁGINA
        ============================ -->
   <style>
+    /* ===== RESET E BASE ===== */
     body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
-      color: #333;
+      font-family: 'Inter', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #222;
+      line-height: 1.6;
     }
 
     h1, h2 {
       text-align: center;
-      color: #2c3e50;
+      font-weight: 600;
+      color: #222;
+      letter-spacing: -0.5px;
+    }
+
+    h1 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-bottom: 15px;
     }
 
     p {
       text-align: center;
       font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto 20px;
+      color: #444;
     }
 
+    /* ===== HEADER ===== */
+    header {
+      padding: 70px 20px 40px;
+      border-bottom: 1px solid #eee;
+      background-color: #fafafa;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 19px;
+      color: #555;
+    }
+
+    /* Linha decorativa minimalista */
+    .linha-header {
+  width: 520px;        /* triplicado */
+  height: 2px;         /* 20% mais fina */
+  background-color: #444; /* cinza escuro elegante */
+  margin: 25px auto 0; /* centralizada */
+  border-radius: 2px;
+    }
+
+    /* ===== FOTO ===== */
     .imagem-centralizada {
       display: block;
-      margin: 20px auto;
-      width: 250px;
-      border-radius: 8px;
+      margin: 35px auto 10px;
+      width: 230px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+      transition: transform .25s ease, box-shadow .25s ease;
     }
 
+    .imagem-centralizada:hover {
+      transform: scale(1.04);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    /* ===== SEÇÕES ===== */
     .secao {
-      margin: 40px auto;
-      max-width: 700px;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin: 50px auto;
+      max-width: 850px;
+      background-color: #f7f7f7;
+      padding: 35px;
+      border-radius: 14px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.05);
+      border: 1px solid #e5e5e5;
     }
 
     ul {
       list-style: none;
       padding: 0;
+      margin: 0;
+      text-align: center;
     }
 
     li {
-      margin: 10px 0;
+      margin: 14px 0;
+      font-size: 18px;
     }
 
+    /* ===== LINKS ===== */
     a {
-      color: #2980b9;
+      color: #2C6BED;
       text-decoration: none;
+      font-weight: 500;
     }
 
     a:hover {
       text-decoration: underline;
+    }
+
+    /* ===== RODAPÉ ===== */
+    footer {
+      margin-top: 70px;
+      padding: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      border-top: 1px solid #eee;
+      background-color: #fafafa;
+    }
+
+    /* ===== RESPONSIVIDADE ===== */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 26px;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+
+      p, li {
+        font-size: 16px;
+      }
+
+      .imagem-centralizada {
+        width: 180px;
+      }
+
+      .secao {
+        margin: 30px 15px;
+        padding: 25px;
+      }
     }
   </style>
 </head>
@@ -73,90 +162,94 @@
   <!-- ============================
        CABEÇALHO E APRESENTAÇÃO
        ============================ -->
-  <h1>Bem-vindo(a) à minha página</h1>
-  <p>Olá, meu nome é Paulo, eu sou consultor de seguros data driven!</p>
+  <header>
+    <h1>Bem-vindo(a) à minha página</h1>
+    <p>Olá, meu nome é Paulo. Sou consultor data driven e atuo no desenvolvimento de soluções analíticas para diferentes segmentos.</p>
 
-  <!-- Foto com link para o LinkedIn -->
-  <a href="https://www.linkedin.com/in/paulo-data-driven/" target="_blank">
-    <img src="foto/github foto.jpg" class="imagem-centralizada" alt="Foto de Paulo, consultor de seguros data driven">
-  </a>
+    <div class="linha-header"></div>
+
+    <!-- Foto com link para o LinkedIn -->
+    <a href="https://www.linkedin.com/in/paulo-data-driven/" target="_blank">
+      <img src="foto/github foto.jpg" class="imagem-centralizada" alt="Foto de Paulo, consultor data driven">
+    </a>
+  </header>
 
   <!-- ============================
        SEÇÃO SOBRE
        ============================ -->
-  <div class="secao">
+  <section class="secao">
     <h2>🧠 Sobre</h2>
-    <p>Consultoria especializada em dados aplicada à gestão estratégica e ao setor de seguros. Atuamos com visualização de dados, previsões e implantação de soluções em Business Intelligence.</p>
-  </div>
+    <p>Desenvolvo soluções baseadas em dados para apoiar decisões estratégicas. Trabalho com análises, visualizações, modelos preditivos e implantação de Business Intelligence, sempre com foco em clareza, precisão e impacto.</p>
+  </section>
 
   <!-- ============================
        SEÇÃO PROJETOS
        ============================ -->
-  <div class="secao">
+  <section class="secao">
     <h2>📁 Projetos</h2>
 
-    <!-- Lista de projetos -->
     <ul>
-
-      <!-- Projeto 1 -->
-      <li>💎 Análise de Preços de Diamantes:
+      <li>
+        💎 Análise de Preços de Diamantes —
         <a href="https://paulopconsult-bit.github.io/analise-precos-diamantes/Analise-Preco-Diamantes.html" target="_blank">
           Ver no R Markdown
         </a>
       </li>
 
-      <!-- Projeto 2 -->
-      <li>🏠 Análise de Preços de Imóveis:
+      <li>
+        🏠 Análise de Preços de Imóveis —
         <a href="https://paulopconsult-bit.github.io/Analise-Preco-Imoveis/AnaliseExploratoriaImoveis.html" target="_blank">
           Ver no R Markdown
         </a>
       </li>
-
-      <!-- Projeto 3 
-      <li>📊 Aplicação Shiny – Acontecer:
-        <a href="https://pconsult-bit.shinyapps.io/acontecer/" target="_blank">
-          Acessar o aplicativo
-        </a>
-      </li> -->
-
     </ul>
-  </div>
+  </section>
 
   <!-- ============================
        SEÇÃO SERVIÇOS
        ============================ -->
-  <div class="secao">
+  <section class="secao">
     <h2>🛠 Serviços</h2>
     <ul>
       <li>🔧 Implantação de BI e dashboards</li>
       <li>📈 Consultoria em dados</li>
-      <li>🕵️‍♂️ Modelos Preditivos</li>
+      <li>🕵️‍♂️ Modelos preditivos</li>
     </ul>
-  </div>
+  </section>
 
   <!-- ============================
        SEÇÃO CONTATO
        ============================ -->
-  <div class="secao">
+  <section class="secao">
     <h2>📞 Contato</h2>
     <ul>
-      <li>📧 <strong>Email:</strong>
+      <li>
+        📧 <strong>Email:</strong>
         <a href="mailto:paulo.pconsult@gmail.com">paulo.pconsult@gmail.com</a>
       </li>
 
-      <li>🔗 <strong>LinkedIn:</strong>
+      <li>
+        🔗 <strong>LinkedIn:</strong>
         <a href="https://www.linkedin.com/in/paulo-data-driven/" target="_blank">
           Paulo Rogério Dias
         </a>
       </li>
 
-      <li>💬 <strong>WhatsApp:</strong>
+      <li>
+        💬 <strong>WhatsApp:</strong>
         <a href="https://wa.me/5513991245656?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20trabalhos!" target="_blank">
           Clique aqui para falar comigo
         </a>
       </li>
     </ul>
-  </div>
+  </section>
+
+  <!-- ============================
+       RODAPÉ
+       ============================ -->
+  <footer>
+    © 2025 Paulo Dias — Consultor Data Driven
+  </footer>
 
 </body>
 </html>
