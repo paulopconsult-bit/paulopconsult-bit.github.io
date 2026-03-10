@@ -1,18 +1,19 @@
-# Meu Site com GitHub Pages
+# Portfólio – Paulo Dias
 
-Este projeto é um site hospedado gratuitamente usando GitHub Pages.  
-Foi criado para treinar Git, versionamento e publicação de páginas web, além de manter a prática em outras ferramentas e compartilhar o conteúdo com outros desenvolvedores.
+Este repositório contém o código-fonte do meu portfólio profissional, onde apresento projetos de Business Intelligence, Análise de Dados e MLOps. O objetivo é demonstrar minha experiência prática em modelagem, visualização, automação e desenvolvimento de soluções orientadas a dados.
 
-## Como visualizar
+## 🔍 Sobre o portfólio
+O site reúne projetos que envolvem:
 
-<a href="https://paulopconsult-bit.github.io/" target="_blank">Acesse o site</a>
+- Análises estatísticas e exploratórias  
+- Modelos preditivos aplicados a negócios  
+- Dashboards e visualizações interativas  
+- Pipelines MLOps com automação e monitoramento  
+- Aplicações em R, Python, Power BI e Shiny
 
-## Estrutura do projeto
+## Acesse o portfólio completo:
 
-- `index.html`: página principal do site
-- `foto/`: pasta com imagens usadas no site
-- `.gitignore`: regras para ignorar arquivos privados
-- `privado/`: pasta com arquivos não rastreados pelo Git
+👉  <a href="https://paulopconsult-bit.github.io/" target="_blank">Acesse o site</a>
 
 ## Autor
 
