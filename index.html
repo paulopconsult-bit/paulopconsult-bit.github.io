@@ -466,6 +466,22 @@ Forçar reset da cor do link em TODOS os estados*/
   opacity: 0.6;
 }
 
+/* ========================================================================================
+   CURSOR (Estilo para remover o cursor piscando em elementos focados, como links e botões)
+   ===================================================================================== */
+
+*:focus-visible {
+  outline: none !important;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+html, body {
+  caret-color: transparent !important;
+}
+
 </style>
 </head>
 
@@ -610,14 +626,14 @@ Forçar reset da cor do link em TODOS os estados*/
 
     <!-- Diamantes -->
     <div class="card">
-      <h3>💎 Precificação de Joias</h3>
+      <h3>💎 Análise de Preços de Joias</h3>
       <p>Modelo estatístico em R para identificar variáveis que influenciam o preço de mercado de diamantes.</p>
       <a href="https://paulopconsult-bit.github.io/analise-precos-diamantes/Analise-Preco-Diamantes.html" class="btn-link" target="_blank">Ver R Markdown</a>
     </div>
 
     <!-- Imóveis -->
     <div class="card">
-      <h3>🏠 Análise de Imóveis</h3>
+      <h3>🏠 Análise de Preços de Imóveis</h3>
       <p>Estudo exploratório para entender padrões de valorização e comportamento do mercado imobiliário.</p>
       <a href="https://paulopconsult-bit.github.io/Analise-Preco-Imoveis/AnaliseExploratoriaImoveis.html" class="btn-link" target="_blank">Ver R Markdown</a>
     </div>
