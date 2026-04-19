@@ -1,21 +1,30 @@
 # Portfólio – Paulo Dias
 
-Este repositório contém o código-fonte do meu portfólio profissional, onde apresento projetos de Business Intelligence, Análise de Dados e MLOps. O objetivo é demonstrar minha experiência prática em modelagem, visualização, automação e desenvolvimento de soluções orientadas a dados.
+Este repositório contém o código-fonte do meu portfólio profissional, desenvolvido para apresentar projetos e soluções nas áreas de **Business Intelligence**, **Análise de Dados**, **MLOps** e **Cloud Computing**.  
+O objetivo é demonstrar minha experiência prática em modelagem, visualização, automação e desenvolvimento de produtos orientados a dados.
 
-## 🔍 Sobre o portfólio
-O site reúne projetos que envolvem:
+---
 
-- Análises estatísticas e exploratórias  
-- Modelos preditivos aplicados a negócios  
-- Dashboards e visualizações interativas  
-- Pipelines MLOps com automação e monitoramento  
-- Aplicações em R, Python, Power BI e Shiny
+## 🚀 Tecnologias e Competências
 
-## Acesse o portfólio completo:
+- **Análise de Dados**: estatística, exploração, storytelling, arquitetura de dados  
+- **Machine Learning**: modelos preditivos aplicados a negócios  
+- **MLOps**: pipelines, automação, versionamento e monitoramento  
+- **Visualização**: dashboards interativos e relatórios executivos  
+- **Cloud**: **Google Cloud Platform (BigQuery, Cloud Run, Cloud Storage, IAM)**  
+- **Ferramentas**: Python, R, Power BI, Shiny, SQL, Docker, Git  
 
-👉  <a href="https://paulopconsult-bit.github.io/" target="_blank">Acesse o site</a>
+---
 
-## Autor
+## 🌐 Acesse o Portfólio
 
-**Paulo Dias**
-Mongaguá, SP – Brasil
+🔗 **Site oficial:**  
+https://paulopconsult-bit.github.io/
+
+---
+
+## 👨‍💻 Autor
+
+**Paulo Dias**  
+Consultor Data Driven  
+Mongaguá – SP, Brasil
